@@ -5,9 +5,9 @@ Summary: A Python package for fitting arcs in 2D scattering data
 Author: Your Name
 Author-email: Your Name <your.email@example.com>
 License: MIT
-Project-URL: Homepage, https://github.com/yoshi-CERMAV/arcfit
-Project-URL: Repository, https://github.com/yoshi-CERMAV/arcfit.git
-Project-URL: Issues, https://github.com/yoshi-CERMAV/arcfit/issues
+Project-URL: Homepage, https://github.com/yourusername/arcfit
+Project-URL: Repository, https://github.com/yourusername/arcfit.git
+Project-URL: Issues, https://github.com/yourusername/arc_fit/issues
 Keywords: scattering,fitting,2D-data,pyFAI
 Classifier: Development Status :: 3 - Alpha
 Classifier: Intended Audience :: Science/Research
@@ -34,5 +34,6 @@ Requires-Dist: flake8>=4.0.0; extra == "dev"
 Requires-Dist: mypy>=0.900; extra == "dev"
 Dynamic: author
 Dynamic: license-file
-
 Dynamic: requires-python
+
+# arcfit

@@ -1,8 +1,9 @@
 LICENSE
+README.md
 pyproject.toml
 setup.py
-arc_fit.egg-info/PKG-INFO
-arc_fit.egg-info/SOURCES.txt
-arc_fit.egg-info/dependency_links.txt
-arc_fit.egg-info/requires.txt
-arc_fit.egg-info/top_level.txt
+arcfit.egg-info/PKG-INFO
+arcfit.egg-info/SOURCES.txt
+arcfit.egg-info/dependency_links.txt
+arcfit.egg-info/requires.txt
+arcfit.egg-info/top_level.txt
