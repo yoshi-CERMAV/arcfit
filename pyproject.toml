@@ -1,0 +1,56 @@
+[build-system]
+# Define the build backend and dependencies
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Basic project metadata
+name = "arcfit"
+version = "0.1.0"
+description = "A Python package for fitting arcs in 2D scattering data"
+readme = "README.md"
+license = {text = "MIT"}  # or your preferred license
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+keywords = ["scattering", "fitting", "2D-data", "pyFAI"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.4.0",
+    "pyFAI>=0.21.0",
+    "Pillow>=8.0.0",
+    "fabio>=0.11.0",
+]
+
+[project.optional-dependencies]
+# Optional dependencies (e.g., for development or testing)
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=4.0.0",
+    "mypy>=0.900",
+]
+
+[project.urls]
+# Project URLs (e.g., repository, documentation)
+Homepage = "https://github.com/yourusername/arcfit"
+Repository = "https://github.com/yourusername/arcfit.git"
+Issues = "https://github.com/yourusername/arc_fit/issues"
+
+[tool.setuptools.packages.find]
+# Automatically discover packages
+where = ["."]
+include = ["arcfit*"]

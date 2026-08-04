@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+setup.py
+arc_fit.egg-info/PKG-INFO
+arc_fit.egg-info/SOURCES.txt
+arc_fit.egg-info/dependency_links.txt
+arc_fit.egg-info/requires.txt
+arc_fit.egg-info/top_level.txt
